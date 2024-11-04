@@ -1,0 +1,127 @@
+/* Đặt các thiết lập cơ bản */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+/* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff9ed6;
+    color: white;
+}
+
+.header-container .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background-color: #ffffff;
+    color: #ff9ed6;
+    border-radius: 5px;
+}
+
+
+/* Giới thiệu */
+
+.introduction-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    /* Nền trắng cho phần giới thiệu */
+}
+
+.about p {
+    margin: 30px;
+}
+
+.introduction-section h2 {
+    color: #ff9ed6;
+    /* Màu tiêu đề phần giới thiệu */
+}
+
+
+/* Sứ Mệnh */
+
+.mission-section {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    /* Nền xám nhẹ cho phần sứ mệnh */
+}
+
+.mission-section h3 {
+    color: #ff9ed6;
+    /* Màu tiêu đề phần sứ mệnh */
+}
+
+
+/* Giá Trị Cốt Lõi */
+
+.values-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    /* Nền trắng cho phần giá trị cốt lõi */
+}
+
+.values-section h3 {
+    color: #ff9ed6;
+    /* Màu tiêu đề phần giá trị cốt lõi */
+}
+
+.values-section ul li {
+    list-style: none;
+}
+
+
+/* Đội Ngũ */
+
+.team-section {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    /* Nền xám nhẹ cho phần đội ngũ */
+}
+
+.team-section h3 {
+    color: #ff9ed6;
+    /* Màu tiêu đề phần đội ngũ */
+}
+
+
+/* Footer */
+
+.footer-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #ff9ed6;
+    /* Màu nền footer */
+    color: white;
+}

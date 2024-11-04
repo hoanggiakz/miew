@@ -1,0 +1,134 @@
+        /* Đặt các thiết lập cơ bản */
+        
+        * {
+            margin: auto;
+            padding: auto;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        /* Header */
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ff9ed6;
+            color: white;
+        }
+        
+        .header-container .logo h1 {
+            font-size: 24px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            color: yellow;
+        }
+        
+        .login-btn {
+            padding: 8px 15px;
+            background-color: #ff0000;
+            color: #ff9ed6;
+            border-radius: 5px;
+        }
+        /* Banner */
+        
+        .banner {
+            background: url('banner.jpg') center/cover no-repeat;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .banner h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .primary-btn {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            color: #ff9ed6;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        /* Dịch Vụ */
+        
+        .services-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .service {
+            width: 30%;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .service h4 {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #ff9ed6;
+        }
+        
+        .services-section ul li {
+            text-decoration: none;
+            list-style: none;
+        }
+        /* Thông Tin */
+        
+        .about-section {
+            padding: 40px 20px;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        
+        .about-section h3 {
+            color: #ff9ed6;
+        }
+        /* Footer */
+        
+        .footer-container {
+            padding: 20px;
+            text-align: center;
+            background-color: #ff9ed6;
+            color: white;
+        }
+        
+        .footer-bottom ul li {
+            text-decoration: none;
+            list-style: none;
+            display: inline;
+        }

@@ -1,0 +1,103 @@
+/* Footer container */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    color: #ff9ed6;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ff9ed6;
+  }
+  
+  .footer-section .contact p, .footer-section .business p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer-section .contact span, .footer-section .business span {
+    font-style: italic;
+  }
+  
+  .footer-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff9ed6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-section button:hover {
+    background-color: #ff7fb0;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-bottom .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-bottom .app-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom .app-links img {
+    margin: 0 10px;
+    width: 120px; /* Adjust size for app icons */
+  }
+  
+  .footer-bottom p {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 20px;
+  }
